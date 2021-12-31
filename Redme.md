@@ -26,3 +26,81 @@ public class Main {
         System.out.println("Númedo do Chassi: " + carro.getChassi());
     }
 }
+
+
+package Modelo;
+
+public class Carro {
+    private String modelo;
+    private String fabricante;
+    private String cor;
+    private double preço;
+    private int portas;
+    private int chassi;
+    private int anoFabricação;
+    private double combustivel;
+
+        public void setPortas(int portas){
+            this.portas = portas;
+        }
+
+    public void setChassi(int chassi) {
+        this.chassi = chassi;
+    }
+
+    public void setAnoFabricação(int anoFabricação) {
+        this.anoFabricação = anoFabricação;
+    }
+
+    public void setCombustivel(double combustivel) {
+        this.combustivel = combustivel;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public void setPreço(double preço) {
+        this.preço = preço;
+    }
+
+    public int getPortas() {
+        return portas;
+    }
+
+    public int getChassi() {
+        return chassi;
+    }
+
+    public int getAnoFabricação() {
+        return anoFabricação;
+    }
+
+    public double getCombustivel() {
+        return combustivel;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public double getPreço() {
+        return preço;
+    }
+}
